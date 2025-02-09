@@ -125,7 +125,7 @@ cd Sciurus17_ROS2_humble_Ubuntu22.04/
 
 ### Build the Package
 ```sh
-colcon build
+colcon build --symlink-install
 ```
 
 ### Test the Setup
