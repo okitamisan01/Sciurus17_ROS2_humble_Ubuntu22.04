@@ -1,1 +1,0 @@
-/root/ros2_ws/build/sciurus17_tools/ament_cmake_environment_hooks/local_setup.sh

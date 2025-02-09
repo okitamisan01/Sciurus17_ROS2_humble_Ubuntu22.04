@@ -1,1 +1,0 @@
-/root/ros2_ws/src/sciurus17_ros/sciurus17_examples/include/sciurus17_examples/waist_jt_control.hpp

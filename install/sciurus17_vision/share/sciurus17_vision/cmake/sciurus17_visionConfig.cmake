@@ -1,1 +1,0 @@
-/root/ros2_ws/build/sciurus17_vision/ament_cmake_core/sciurus17_visionConfig.cmake

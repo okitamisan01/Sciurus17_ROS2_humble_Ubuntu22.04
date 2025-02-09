@@ -1,1 +1,0 @@
-controller_manager:gripper_controllers:hardware_interface:pluginlib:rclcpp:ros2_controllers:rt_manipulators_cpp:sciurus17_description

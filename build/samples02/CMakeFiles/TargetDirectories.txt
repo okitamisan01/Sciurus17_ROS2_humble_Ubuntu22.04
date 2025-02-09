@@ -1,8 +1,0 @@
-/root/ros2_ws/build/samples02/CMakeFiles/uninstall.dir
-/root/ros2_ws/build/samples02/CMakeFiles/samples02_uninstall.dir
-/root/ros2_ws/build/samples02/CMakeFiles/x7_forward_kinematics.dir
-/root/ros2_ws/build/samples02/CMakeFiles/s17_forward_kinematics.dir
-/root/ros2_ws/build/samples02/CMakeFiles/x7_inverse_kinematics.dir
-/root/ros2_ws/build/samples02/CMakeFiles/s17_inverse_kinematics.dir
-/root/ros2_ws/build/samples02/CMakeFiles/edit_cache.dir
-/root/ros2_ws/build/samples02/CMakeFiles/rebuild_cache.dir

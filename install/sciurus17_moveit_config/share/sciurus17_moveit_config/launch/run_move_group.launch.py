@@ -1,1 +1,0 @@
-/root/ros2_ws/src/sciurus17_ros/sciurus17_moveit_config/launch/run_move_group.launch.py

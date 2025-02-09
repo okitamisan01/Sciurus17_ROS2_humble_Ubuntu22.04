@@ -1,4 +1,0 @@
-sciurus17_examples::ColorDetection;lib/libcolor_detection.so
-sciurus17_examples::NeckJtControl;lib/libneck_jt_control.so
-sciurus17_examples::ObjectTracker;lib/libobject_tracker.so
-sciurus17_examples::WaistJtControl;lib/libwaist_jt_control.so

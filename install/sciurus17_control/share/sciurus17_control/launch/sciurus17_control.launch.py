@@ -1,1 +1,0 @@
-/root/ros2_ws/src/sciurus17_ros/sciurus17_control/launch/sciurus17_control.launch.py

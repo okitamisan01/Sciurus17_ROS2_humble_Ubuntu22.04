@@ -1,1 +1,0 @@
-/root/ros2_ws/src/sciurus17_ros/sciurus17_examples/include/pose_presets.hpp

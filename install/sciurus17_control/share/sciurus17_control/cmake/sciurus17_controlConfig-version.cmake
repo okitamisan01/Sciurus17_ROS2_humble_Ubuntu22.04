@@ -1,1 +1,0 @@
-/root/ros2_ws/build/sciurus17_control/ament_cmake_core/sciurus17_controlConfig-version.cmake

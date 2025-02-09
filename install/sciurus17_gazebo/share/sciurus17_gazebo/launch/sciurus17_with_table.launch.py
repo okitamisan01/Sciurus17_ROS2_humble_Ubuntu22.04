@@ -1,1 +1,0 @@
-/root/ros2_ws/src/sciurus17_ros/sciurus17_gazebo/launch/sciurus17_with_table.launch.py

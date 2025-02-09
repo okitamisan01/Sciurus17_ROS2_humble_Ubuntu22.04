@@ -1,1 +1,0 @@
-angles;sciurus17_control;sciurus17_description;sciurus17_moveit_config;cv_bridge;geometry_msgs;image_geometry;libopencv-dev;moveit_ros_planning_interface;pcl_ros;rclcpp;rclcpp_components;tf2_geometry_msgs;ament_lint_auto;ament_lint_common
