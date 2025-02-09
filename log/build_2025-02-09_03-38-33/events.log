@@ -1,0 +1,268 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000521] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000863] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000924] (-) JobUnselected: {'identifier': 'rt_manipulators_cpp'}
+[0.001105] (-) JobUnselected: {'identifier': 'samples02'}
+[0.001341] (-) JobUnselected: {'identifier': 'samples03'}
+[0.001417] (-) JobUnselected: {'identifier': 'sciurus17'}
+[0.001476] (-) JobUnselected: {'identifier': 'sciurus17_control'}
+[0.001538] (-) JobUnselected: {'identifier': 'sciurus17_description'}
+[0.001599] (-) JobUnselected: {'identifier': 'sciurus17_examples'}
+[0.001657] (-) JobUnselected: {'identifier': 'sciurus17_gazebo'}
+[0.001716] (-) JobUnselected: {'identifier': 'sciurus17_moveit_config'}
+[0.001785] (-) JobUnselected: {'identifier': 'sciurus17_tools'}
+[0.002176] (-) JobUnselected: {'identifier': 'sciurus17_vision'}
+[0.002255] (samples01) JobQueued: {'identifier': 'samples01', 'dependencies': OrderedDict([('dynamixel_sdk', '/root/ros2_ws/install/dynamixel_sdk'), ('rt_manipulators_cpp', '/root/ros2_ws/install/rt_manipulators_cpp')])}
+[0.002324] (samples01) JobStarted: {'identifier': 'samples01'}
+[0.018248] (samples01) JobProgress: {'identifier': 'samples01', 'progress': 'cmake'}
+[0.019176] (samples01) JobProgress: {'identifier': 'samples01', 'progress': 'build'}
+[0.020406] (samples01) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/samples01', '--', '-j12', '-l12'], 'cwd': '/root/ros2_ws/build/samples01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'LAPTOP-I1NP9048'), ('ROS_PACKAGE_PATH', '/root/ros2_ws/install/rt_manipulators_cpp/share'), ('GIT_ASKPASS', '/root/.vscode-server/bin/33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/install/sciurus17_examples/lib:/root/ros2_ws/install/sciurus17_control/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8731435e-e108-41c3-8514-7ef50ada8194.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9a2a30ac-5bf7-4c8f-bd9e-a8dbc2db1288.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ros2_ws/install/rt_manipulators_cpp/lib/x86_64-linux-gnu/pkgconfig:/root/ros2_ws/install/rt_manipulators_cpp/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7ee6b12a41.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/sciurus17:/root/ros2_ws/install/sciurus17_examples:/root/ros2_ws/install/sciurus17_control:/root/ros2_ws/install/dynamixel_sdk_examples:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces:/root/ros2_ws/install/dynamixel_sdk:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/build/samples01'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/sciurus17_description/local/lib/python3.10/dist-packages:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/dynamixel_sdk:/root/ros2_ws/install/sciurus17:/root/ros2_ws/install/sciurus17_examples:/root/ros2_ws/install/sciurus17_control:/root/ros2_ws/install/dynamixel_sdk_examples:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces')]), 'shell': False}
+[0.049061] (samples01) StdoutLine: {'line': b'-- Found rt_manipulators_cpp: 1.0.0 (/opt/ros/humble/share/rt_manipulators_cpp/cmake)\n'}
+[0.099653] (-) TimerEvent: {}
+[0.184626] (samples01) StderrLine: {'line': b'\x1b[0mx7_onoff\x1b[0m\n'}
+[0.185200] (samples01) StderrLine: {'line': b'\x1b[0ms17_onoff\x1b[0m\n'}
+[0.185492] (samples01) StderrLine: {'line': b'\x1b[0mx7_read_position\x1b[0m\n'}
+[0.185699] (samples01) StderrLine: {'line': b'\x1b[0ms17_read_position\x1b[0m\n'}
+[0.185943] (samples01) StderrLine: {'line': b'\x1b[0mx7_write_position\x1b[0m\n'}
+[0.186276] (samples01) StderrLine: {'line': b'\x1b[0ms17_write_position\x1b[0m\n'}
+[0.186565] (samples01) StderrLine: {'line': b'\x1b[0mx7_thread\x1b[0m\n'}
+[0.186758] (samples01) StderrLine: {'line': b'\x1b[0ms17_thread\x1b[0m\n'}
+[0.186838] (samples01) StderrLine: {'line': b'\x1b[0mx7_read_present_values\x1b[0m\n'}
+[0.186954] (samples01) StderrLine: {'line': b'\x1b[0ms17_read_present_values\x1b[0m\n'}
+[0.187029] (samples01) StderrLine: {'line': b'\x1b[0mx7_write_velocity\x1b[0m\n'}
+[0.187094] (samples01) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.187165] (samples01) StderrLine: {'line': b'\x1b[0ms17_write_velocity\x1b[0m\n'}
+[0.187227] (samples01) StderrLine: {'line': b'\x1b[0mx7_write_current\x1b[0m\n'}
+[0.187297] (samples01) StderrLine: {'line': b'\x1b[0ms17_write_current\x1b[0m\n'}
+[0.189149] (samples01) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.189272] (samples01) StderrLine: {'line': b'  Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path\n'}
+[0.189345] (samples01) StderrLine: {'line': b'\n'}
+[0.189411] (samples01) StderrLine: {'line': b'    "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"\n'}
+[0.189476] (samples01) StderrLine: {'line': b'\n'}
+[0.189541] (samples01) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[0.189602] (samples01) StderrLine: {'line': b'\n'}
+[0.189662] (samples01) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[0.189725] (samples01) StderrLine: {'line': b'\n'}
+[0.189829] (samples01) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[0.189947] (samples01) StderrLine: {'line': b'\n'}
+[0.190099] (samples01) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[0.190212] (samples01) StderrLine: {'line': b'  provide.\n'}
+[0.190288] (samples01) StderrLine: {'line': b'\n'}
+[0.190354] (samples01) StderrLine: {'line': b'\n'}
+[0.190420] (samples01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.190889] (samples01) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.191010] (samples01) StderrLine: {'line': b'  Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path\n'}
+[0.191085] (samples01) StderrLine: {'line': b'\n'}
+[0.191196] (samples01) StderrLine: {'line': b'    "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"\n'}
+[0.191296] (samples01) StderrLine: {'line': b'\n'}
+[0.191387] (samples01) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[0.191490] (samples01) StderrLine: {'line': b'\n'}
+[0.191614] (samples01) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[0.191741] (samples01) StderrLine: {'line': b'\n'}
+[0.191870] (samples01) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[0.191949] (samples01) StderrLine: {'line': b'\n'}
+[0.192014] (samples01) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[0.192075] (samples01) StderrLine: {'line': b'  provide.\n'}
+[0.192179] (samples01) StderrLine: {'line': b'\n'}
+[0.192292] (samples01) StderrLine: {'line': b'\n'}
+[0.192408] (samples01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.192745] (samples01) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.192866] (samples01) StderrLine: {'line': b'  Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path\n'}
+[0.192958] (samples01) StderrLine: {'line': b'\n'}
+[0.193042] (samples01) StderrLine: {'line': b'    "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"\n'}
+[0.193140] (samples01) StderrLine: {'line': b'\n'}
+[0.193296] (samples01) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[0.193424] (samples01) StderrLine: {'line': b'\n'}
+[0.193527] (samples01) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[0.193630] (samples01) StderrLine: {'line': b'\n'}
+[0.193727] (samples01) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[0.193821] (samples01) StderrLine: {'line': b'\n'}
+[0.193911] (samples01) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[0.194022] (samples01) StderrLine: {'line': b'  provide.\n'}
+[0.194125] (samples01) StderrLine: {'line': b'\n'}
+[0.194221] (samples01) StderrLine: {'line': b'\n'}
+[0.194369] (samples01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.194736] (samples01) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.194846] (samples01) StderrLine: {'line': b'  Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path\n'}
+[0.194942] (samples01) StderrLine: {'line': b'\n'}
+[0.195031] (samples01) StderrLine: {'line': b'    "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"\n'}
+[0.195133] (samples01) StderrLine: {'line': b'\n'}
+[0.195228] (samples01) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[0.195322] (samples01) StderrLine: {'line': b'\n'}
+[0.195416] (samples01) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[0.195509] (samples01) StderrLine: {'line': b'\n'}
+[0.195601] (samples01) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[0.195713] (samples01) StderrLine: {'line': b'\n'}
+[0.195825] (samples01) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[0.195923] (samples01) StderrLine: {'line': b'  provide.\n'}
+[0.196018] (samples01) StderrLine: {'line': b'\n'}
+[0.196111] (samples01) StderrLine: {'line': b'\n'}
+[0.196212] (samples01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.196497] (samples01) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.196614] (samples01) StderrLine: {'line': b'  Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path\n'}
+[0.196702] (samples01) StderrLine: {'line': b'\n'}
+[0.196784] (samples01) StderrLine: {'line': b'    "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"\n'}
+[0.196875] (samples01) StderrLine: {'line': b'\n'}
+[0.196988] (samples01) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[0.197093] (samples01) StderrLine: {'line': b'\n'}
+[0.197189] (samples01) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[0.197290] (samples01) StderrLine: {'line': b'\n'}
+[0.197386] (samples01) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[0.197518] (samples01) StderrLine: {'line': b'\n'}
+[0.197613] (samples01) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[0.197706] (samples01) StderrLine: {'line': b'  provide.\n'}
+[0.197838] (samples01) StderrLine: {'line': b'\n'}
+[0.197938] (samples01) StderrLine: {'line': b'\n'}
+[0.198036] (samples01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.198334] (samples01) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.198428] (samples01) StderrLine: {'line': b'  Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path\n'}
+[0.198573] (samples01) StderrLine: {'line': b'\n'}
+[0.198747] (samples01) StderrLine: {'line': b'    "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"\n'}
+[0.198821] (samples01) StderrLine: {'line': b'\n'}
+[0.198912] (samples01) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[0.199055] (samples01) StderrLine: {'line': b'\n'}
+[0.199197] (samples01) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[0.199328] (samples01) StderrLine: {'line': b'\n'}
+[0.199400] (samples01) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[0.199465] (samples01) StderrLine: {'line': b'\n'}
+[0.199600] (samples01) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[0.199719] (-) TimerEvent: {}
+[0.199998] (samples01) StderrLine: {'line': b'  provide.\n'}
+[0.200105] (samples01) StderrLine: {'line': b'\n'}
+[0.200190] (samples01) StderrLine: {'line': b'\n'}
+[0.200269] (samples01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.200346] (samples01) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.200421] (samples01) StderrLine: {'line': b'  Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path\n'}
+[0.200496] (samples01) StderrLine: {'line': b'\n'}
+[0.200583] (samples01) StderrLine: {'line': b'    "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"\n'}
+[0.200756] (samples01) StderrLine: {'line': b'\n'}
+[0.200893] (samples01) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[0.200970] (samples01) StderrLine: {'line': b'\n'}
+[0.201056] (samples01) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[0.201201] (samples01) StderrLine: {'line': b'\n'}
+[0.201338] (samples01) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[0.201529] (samples01) StderrLine: {'line': b'\n'}
+[0.201598] (samples01) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[0.201663] (samples01) StderrLine: {'line': b'  provide.\n'}
+[0.201728] (samples01) StderrLine: {'line': b'\n'}
+[0.201790] (samples01) StderrLine: {'line': b'\n'}
+[0.201852] (samples01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.201948] (samples01) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.202124] (samples01) StderrLine: {'line': b'  Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path\n'}
+[0.202298] (samples01) StderrLine: {'line': b'\n'}
+[0.202400] (samples01) StderrLine: {'line': b'    "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"\n'}
+[0.202499] (samples01) StderrLine: {'line': b'\n'}
+[0.202593] (samples01) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[0.202696] (samples01) StderrLine: {'line': b'\n'}
+[0.202790] (samples01) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[0.202897] (samples01) StderrLine: {'line': b'\n'}
+[0.202997] (samples01) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[0.203231] (samples01) StderrLine: {'line': b'\n'}
+[0.203303] (samples01) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[0.203367] (samples01) StderrLine: {'line': b'  provide.\n'}
+[0.203428] (samples01) StderrLine: {'line': b'\n'}
+[0.203489] (samples01) StderrLine: {'line': b'\n'}
+[0.203587] (samples01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.203741] (samples01) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.203850] (samples01) StderrLine: {'line': b'  Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path\n'}
+[0.203973] (samples01) StderrLine: {'line': b'\n'}
+[0.204043] (samples01) StderrLine: {'line': b'    "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"\n'}
+[0.204143] (samples01) StderrLine: {'line': b'\n'}
+[0.204217] (samples01) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[0.204407] (samples01) StderrLine: {'line': b'\n'}
+[0.204588] (samples01) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[0.204842] (samples01) StderrLine: {'line': b'\n'}
+[0.204918] (samples01) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[0.204982] (samples01) StderrLine: {'line': b'\n'}
+[0.205044] (samples01) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[0.205116] (samples01) StderrLine: {'line': b'  provide.\n'}
+[0.205264] (samples01) StderrLine: {'line': b'\n'}
+[0.205397] (samples01) StderrLine: {'line': b'\n'}
+[0.205499] (samples01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.205628] (samples01) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.205731] (samples01) StderrLine: {'line': b'  Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path\n'}
+[0.205829] (samples01) StderrLine: {'line': b'\n'}
+[0.205924] (samples01) StderrLine: {'line': b'    "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"\n'}
+[0.206020] (samples01) StderrLine: {'line': b'\n'}
+[0.206114] (samples01) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[0.206257] (samples01) StderrLine: {'line': b'\n'}
+[0.206642] (samples01) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[0.206797] (samples01) StderrLine: {'line': b'\n'}
+[0.206921] (samples01) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[0.207305] (samples01) StderrLine: {'line': b'\n'}
+[0.207428] (samples01) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[0.207529] (samples01) StderrLine: {'line': b'  provide.\n'}
+[0.207718] (samples01) StderrLine: {'line': b'\n'}
+[0.207834] (samples01) StderrLine: {'line': b'\n'}
+[0.207934] (samples01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.208044] (samples01) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.208171] (samples01) StderrLine: {'line': b'  Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path\n'}
+[0.208482] (samples01) StderrLine: {'line': b'\n'}
+[0.208805] (samples01) StderrLine: {'line': b'    "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"\n'}
+[0.208949] (samples01) StderrLine: {'line': b'\n'}
+[0.209080] (samples01) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[0.209199] (samples01) StderrLine: {'line': b'\n'}
+[0.209358] (samples01) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[0.209532] (samples01) StderrLine: {'line': b'\n'}
+[0.209651] (samples01) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[0.209753] (samples01) StderrLine: {'line': b'\n'}
+[0.209902] (samples01) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[0.210066] (samples01) StderrLine: {'line': b'  provide.\n'}
+[0.210289] (samples01) StderrLine: {'line': b'\n'}
+[0.210530] (samples01) StderrLine: {'line': b'\n'}
+[0.210661] (samples01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.210788] (samples01) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.210929] (samples01) StderrLine: {'line': b'  Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path\n'}
+[0.211006] (samples01) StderrLine: {'line': b'\n'}
+[0.211076] (samples01) StderrLine: {'line': b'    "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"\n'}
+[0.211180] (samples01) StderrLine: {'line': b'\n'}
+[0.211326] (samples01) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[0.211462] (samples01) StderrLine: {'line': b'\n'}
+[0.211598] (samples01) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[0.211671] (samples01) StderrLine: {'line': b'\n'}
+[0.211811] (samples01) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[0.211971] (samples01) StderrLine: {'line': b'\n'}
+[0.212125] (samples01) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[0.212372] (samples01) StderrLine: {'line': b'  provide.\n'}
+[0.212449] (samples01) StderrLine: {'line': b'\n'}
+[0.212562] (samples01) StderrLine: {'line': b'\n'}
+[0.212640] (samples01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.212706] (samples01) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.212806] (samples01) StderrLine: {'line': b'  Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path\n'}
+[0.212936] (samples01) StderrLine: {'line': b'\n'}
+[0.213068] (samples01) StderrLine: {'line': b'    "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"\n'}
+[0.213185] (samples01) StderrLine: {'line': b'\n'}
+[0.213327] (samples01) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[0.213496] (samples01) StderrLine: {'line': b'\n'}
+[0.213608] (samples01) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[0.213686] (samples01) StderrLine: {'line': b'\n'}
+[0.213751] (samples01) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[0.213822] (samples01) StderrLine: {'line': b'\n'}
+[0.213883] (samples01) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[0.213943] (samples01) StderrLine: {'line': b'  provide.\n'}
+[0.214023] (samples01) StderrLine: {'line': b'\n'}
+[0.214133] (samples01) StderrLine: {'line': b'\n'}
+[0.214327] (samples01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.214441] (samples01) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.214524] (samples01) StderrLine: {'line': b'  Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path\n'}
+[0.214608] (samples01) StderrLine: {'line': b'\n'}
+[0.214719] (samples01) StderrLine: {'line': b'    "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"\n'}
+[0.214845] (samples01) StderrLine: {'line': b'\n'}
+[0.215069] (samples01) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[0.215362] (samples01) StderrLine: {'line': b'\n'}
+[0.215465] (samples01) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[0.215560] (samples01) StderrLine: {'line': b'\n'}
+[0.215681] (samples01) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[0.215803] (samples01) StderrLine: {'line': b'\n'}
+[0.215914] (samples01) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[0.216022] (samples01) StderrLine: {'line': b'  provide.\n'}
+[0.216148] (samples01) StderrLine: {'line': b'\n'}
+[0.216262] (samples01) StderrLine: {'line': b'\n'}
+[0.216405] (samples01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.216544] (samples01) StdoutLine: {'line': b'-- Generating done\n'}
+[0.218814] (samples01) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[0.221614] (samples01) StderrLine: {'line': b'gmake: *** [Makefile:740: cmake_check_build_system] Error 1\n'}
+[0.224178] (samples01) CommandEnded: {'returncode': 2}
+[0.224563] (samples01) JobEnded: {'identifier': 'samples01', 'rc': 2}
+[0.235046] (-) EventReactorShutdown: {}

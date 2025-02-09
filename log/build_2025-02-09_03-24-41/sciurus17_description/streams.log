@@ -1,0 +1,99 @@
+[0.030s] Invoking command in '/root/ros2_ws/build/sciurus17_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/sciurus17_description -- -j12 -l12
+[0.144s] Built target ament_cmake_python_symlink_sciurus17_description
+[0.634s] running egg_info
+[0.636s] writing sciurus17_description.egg-info/PKG-INFO
+[0.636s] writing dependency_links to sciurus17_description.egg-info/dependency_links.txt
+[0.637s] writing top-level names to sciurus17_description.egg-info/top_level.txt
+[0.641s] reading manifest file 'sciurus17_description.egg-info/SOURCES.txt'
+[0.643s] writing manifest file 'sciurus17_description.egg-info/SOURCES.txt'
+[0.690s] Built target ament_cmake_python_build_sciurus17_description_egg
+[0.711s] Invoked command in '/root/ros2_ws/build/sciurus17_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/sciurus17_description -- -j12 -l12
+[0.733s] Invoking command in '/root/ros2_ws/build/sciurus17_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/sciurus17_description
+[0.745s] -- Install configuration: ""
+[0.747s] -- Execute custom install script
+[0.749s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//launch/display.launch.py
+[0.749s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//launch/display.rviz
+[0.754s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/Base.stl
+[0.755s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/Body.stl
+[0.755s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/L_GripperA.stl
+[0.756s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/L_GripperB.stl
+[0.757s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/L_Link1.stl
+[0.758s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/L_Link2.stl
+[0.758s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/L_Link3.stl
+[0.759s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/L_Link4.stl
+[0.760s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/L_Link5.stl
+[0.761s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/L_Link6.stl
+[0.762s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/L_Link7.stl
+[0.763s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/Logo_Corp.stl
+[0.763s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/Logo_Rabbit.stl
+[0.764s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/Neck1.stl
+[0.765s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/Neck2.stl
+[0.765s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/R_GripperA.stl
+[0.766s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/R_GripperB.stl
+[0.767s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/R_Link1.stl
+[0.768s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/R_Link2.stl
+[0.769s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/R_Link3.stl
+[0.770s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/R_Link4.stl
+[0.770s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/R_Link5.stl
+[0.771s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/R_Link6.stl
+[0.772s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/collision/R_Link7.stl
+[0.773s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/Base.stl
+[0.774s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/Body.stl
+[0.775s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/L_GripperA.stl
+[0.775s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/L_GripperB.stl
+[0.776s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/L_Link1.stl
+[0.777s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/L_Link2.stl
+[0.778s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/L_Link3.stl
+[0.778s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/L_Link4.stl
+[0.779s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/L_Link5.stl
+[0.780s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/L_Link6.stl
+[0.781s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/L_Link7.stl
+[0.782s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/Logo_Corp.stl
+[0.782s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/Logo_Rabbit.stl
+[0.783s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/Neck1.stl
+[0.784s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/Neck2.stl
+[0.785s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/R_GripperA.stl
+[0.786s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/R_GripperB.stl
+[0.786s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/R_Link1.stl
+[0.787s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/R_Link2.stl
+[0.788s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/R_Link3.stl
+[0.789s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/R_Link4.stl
+[0.790s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/R_Link5.stl
+[0.790s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/R_Link6.stl
+[0.791s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//meshes/visual/R_Link7.stl
+[0.794s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//urdf/sciurus17.gazebo_ros2_control.xacro
+[0.794s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//urdf/sciurus17.ros2_control.xacro
+[0.795s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//urdf/sciurus17.urdf.xacro
+[0.795s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//urdf/sciurus17_body.xacro
+[0.796s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//urdf/sciurus17_gazebo.xacro
+[0.797s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//urdf/sciurus17_head.xacro
+[0.798s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//urdf/sciurus17_left_arm.xacro
+[0.799s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//urdf/sciurus17_left_gripper.xacro
+[0.799s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//urdf/sciurus17_right_arm.xacro
+[0.800s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description//urdf/sciurus17_right_gripper.xacro
+[0.800s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description/environment/pythonpath.sh
+[0.801s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description/environment/pythonpath.dsv
+[0.802s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/local/lib/python3.10/dist-packages/sciurus17_description-3.0.0-py3.10.egg-info/PKG-INFO
+[0.802s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/local/lib/python3.10/dist-packages/sciurus17_description-3.0.0-py3.10.egg-info/SOURCES.txt
+[0.803s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/local/lib/python3.10/dist-packages/sciurus17_description-3.0.0-py3.10.egg-info/dependency_links.txt
+[0.804s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/local/lib/python3.10/dist-packages/sciurus17_description-3.0.0-py3.10.egg-info/top_level.txt
+[0.806s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/local/lib/python3.10/dist-packages/sciurus17_description/__init__.py
+[0.807s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/local/lib/python3.10/dist-packages/sciurus17_description/robot_description_loader.py
+[0.808s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/lib/sciurus17_description/robot_description_loader.py
+[0.808s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/ament_index/resource_index/package_run_dependencies/sciurus17_description
+[0.810s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/ament_index/resource_index/parent_prefix_path/sciurus17_description
+[0.810s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description/environment/ament_prefix_path.sh
+[0.811s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description/environment/ament_prefix_path.dsv
+[0.812s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description/environment/path.sh
+[0.813s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description/environment/path.dsv
+[0.814s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description/local_setup.bash
+[0.814s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description/local_setup.sh
+[0.815s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description/local_setup.zsh
+[0.816s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description/local_setup.dsv
+[0.816s] -- Symlinking: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description/package.dsv
+[0.833s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/ament_index/resource_index/packages/sciurus17_description
+[0.834s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description/cmake/sciurus17_descriptionConfig.cmake
+[0.835s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description/cmake/sciurus17_descriptionConfig-version.cmake
+[0.836s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_description/share/sciurus17_description/package.xml
+[0.892s] Listing '/root/ros2_ws/install/sciurus17_description/local/lib/python3.10/dist-packages/sciurus17_description'...
+[0.904s] Invoked command in '/root/ros2_ws/build/sciurus17_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/sciurus17_description

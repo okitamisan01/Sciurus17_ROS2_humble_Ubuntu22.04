@@ -1,0 +1,80 @@
+[0.033s] Invoking command in '/root/ros2_ws/build/samples03': CMAKE_PREFIX_PATH=/root/ros2_ws/install/dynamixel_sdk:/root/ros2_ws/install/sciurus17:/root/ros2_ws/install/sciurus17_examples:/root/ros2_ws/install/sciurus17_control:/root/ros2_ws/install/dynamixel_sdk_examples:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/install/sciurus17_examples/lib:/root/ros2_ws/install/sciurus17_control/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_ws/build/samples03 -- -j12 -l12
+[0.062s] -- Found rt_manipulators_cpp: 1.0.0 (/opt/ros/humble/share/rt_manipulators_cpp/cmake)
+[0.189s] [0mx7_3dof_inverse_kinematics[0m
+[0.189s] [0ms17_3dof_inverse_kinematics[0m
+[0.189s] [0mx7_gravity_compensation[0m
+[0.189s] [0ms17_gravity_compensation[0m
+[0.189s] -- Configuring done
+[0.201s] [33mCMake Warning at CMakeLists.txt:43 (add_executable):
+[0.202s]   Cannot generate a safe runtime search path for target
+[0.202s]   x7_3dof_inverse_kinematics because there is a cycle in the constraint
+[0.202s]   graph:
+[0.202s] 
+[0.202s]     dir 0 is [/opt/ros/humble/lib]
+[0.202s]       dir 1 must precede it due to runtime library [libdynamixel_sdk.so]
+[0.202s]     dir 1 is [/root/ros2_ws/install/dynamixel_sdk/lib]
+[0.203s]       dir 0 must precede it due to runtime library [libdynamixel_sdk.so]
+[0.203s] 
+[0.203s]   Some of these libraries may not be found correctly.
+[0.203s] 
+[0.203s] [0m
+[0.203s] [33mCMake Warning at CMakeLists.txt:43 (add_executable):
+[0.203s]   Cannot generate a safe runtime search path for target
+[0.203s]   s17_3dof_inverse_kinematics because there is a cycle in the constraint
+[0.203s]   graph:
+[0.203s] 
+[0.203s]     dir 0 is [/opt/ros/humble/lib]
+[0.203s]       dir 1 must precede it due to runtime library [libdynamixel_sdk.so]
+[0.203s]     dir 1 is [/root/ros2_ws/install/dynamixel_sdk/lib]
+[0.204s]       dir 0 must precede it due to runtime library [libdynamixel_sdk.so]
+[0.204s] 
+[0.204s]   Some of these libraries may not be found correctly.
+[0.204s] 
+[0.204s] [0m
+[0.207s] [33mCMake Warning at CMakeLists.txt:43 (add_executable):
+[0.207s]   Cannot generate a safe runtime search path for target
+[0.207s]   x7_gravity_compensation because there is a cycle in the constraint graph:
+[0.207s] 
+[0.207s]     dir 0 is [/opt/ros/humble/lib]
+[0.207s]       dir 1 must precede it due to runtime library [libdynamixel_sdk.so]
+[0.208s]     dir 1 is [/root/ros2_ws/install/dynamixel_sdk/lib]
+[0.208s]       dir 0 must precede it due to runtime library [libdynamixel_sdk.so]
+[0.208s] 
+[0.208s]   Some of these libraries may not be found correctly.
+[0.208s] 
+[0.208s] [0m
+[0.210s] [33mCMake Warning at CMakeLists.txt:43 (add_executable):
+[0.210s]   Cannot generate a safe runtime search path for target
+[0.210s]   s17_gravity_compensation because there is a cycle in the constraint graph:
+[0.210s] 
+[0.210s]     dir 0 is [/opt/ros/humble/lib]
+[0.211s]       dir 1 must precede it due to runtime library [libdynamixel_sdk.so]
+[0.211s]     dir 1 is [/root/ros2_ws/install/dynamixel_sdk/lib]
+[0.211s]       dir 0 must precede it due to runtime library [libdynamixel_sdk.so]
+[0.211s] 
+[0.211s]   Some of these libraries may not be found correctly.
+[0.211s] 
+[0.211s] [0m
+[0.214s] -- Generating done
+[0.221s] -- Build files have been written to: /root/ros2_ws/build/samples03
+[0.261s] [ 12%] [32mBuilding CXX object CMakeFiles/s17_3dof_inverse_kinematics.dir/src/rt_manipulators_ik.cpp.o[0m
+[0.261s] [ 12%] [32mBuilding CXX object CMakeFiles/x7_gravity_compensation.dir/src/rt_manipulators_ik.cpp.o[0m
+[0.264s] [ 18%] [32mBuilding CXX object CMakeFiles/x7_gravity_compensation.dir/src/x7_gravity_compensation.cpp.o[0m
+[0.264s] [ 25%] [32mBuilding CXX object CMakeFiles/x7_3dof_inverse_kinematics.dir/src/rt_manipulators_dynamics.cpp.o[0m
+[0.265s] [ 31%] [32mBuilding CXX object CMakeFiles/x7_3dof_inverse_kinematics.dir/src/rt_manipulators_ik.cpp.o[0m
+[0.266s] [ 43%] [32mBuilding CXX object CMakeFiles/x7_gravity_compensation.dir/src/rt_manipulators_dynamics.cpp.o[0m
+[0.266s] [ 43%] [32mBuilding CXX object CMakeFiles/x7_3dof_inverse_kinematics.dir/src/x7_3dof_inverse_kinematics.cpp.o[0m
+[0.269s] [ 50%] [32mBuilding CXX object CMakeFiles/s17_3dof_inverse_kinematics.dir/src/s17_3dof_inverse_kinematics.cpp.o[0m
+[0.290s] [ 62%] [32mBuilding CXX object CMakeFiles/s17_gravity_compensation.dir/src/rt_manipulators_ik.cpp.o[0m
+[0.290s] [ 62%] [32mBuilding CXX object CMakeFiles/s17_3dof_inverse_kinematics.dir/src/rt_manipulators_dynamics.cpp.o[0m
+[0.296s] [ 68%] [32mBuilding CXX object CMakeFiles/s17_gravity_compensation.dir/src/rt_manipulators_dynamics.cpp.o[0m
+[0.312s] [ 75%] [32mBuilding CXX object CMakeFiles/s17_gravity_compensation.dir/src/s17_gravity_compensation.cpp.o[0m
+[4.612s] [ 81%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/bin/x7_3dof_inverse_kinematics[0m
+[4.617s] [ 87%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/bin/s17_gravity_compensation[0m
+[4.626s] [ 93%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/bin/x7_gravity_compensation[0m
+[4.804s] [ 93%] Built target s17_gravity_compensation
+[4.813s] [ 93%] Built target x7_3dof_inverse_kinematics
+[4.827s] [ 93%] Built target x7_gravity_compensation
+[4.884s] [100%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/bin/s17_3dof_inverse_kinematics[0m
+[5.005s] [100%] Built target s17_3dof_inverse_kinematics
+[5.017s] Invoked command in '/root/ros2_ws/build/samples03' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/dynamixel_sdk:/root/ros2_ws/install/sciurus17:/root/ros2_ws/install/sciurus17_examples:/root/ros2_ws/install/sciurus17_control:/root/ros2_ws/install/dynamixel_sdk_examples:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/install/sciurus17_examples/lib:/root/ros2_ws/install/sciurus17_control/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_ws/build/samples03 -- -j12 -l12

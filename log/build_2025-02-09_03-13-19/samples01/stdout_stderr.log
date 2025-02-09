@@ -1,0 +1,165 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found rt_manipulators_cpp: 1.0.0 (/opt/ros/humble/share/rt_manipulators_cpp/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0mx7_onoff[0m
+[0ms17_onoff[0m
+[0mx7_read_position[0m
+[0ms17_read_position[0m
+[0mx7_write_position[0m
+[0ms17_write_position[0m
+[0mx7_thread[0m
+[0ms17_thread[0m
+[0mx7_read_present_values[0m
+[0ms17_read_present_values[0m
+[0mx7_write_velocity[0m
+[0ms17_write_velocity[0m
+[0mx7_write_current[0m
+[0ms17_write_current[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/build/samples01
+[  3%] [32mBuilding CXX object CMakeFiles/x7_onoff.dir/src/x7_onoff.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/x7_read_position.dir/src/x7_read_position.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/x7_write_position.dir/src/x7_write_position.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/s17_read_position.dir/src/s17_read_position.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/x7_thread.dir/src/x7_thread.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/s17_onoff.dir/src/s17_onoff.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/s17_write_position.dir/src/s17_write_position.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/s17_thread.dir/src/s17_thread.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/s17_read_present_values.dir/src/s17_read_present_values.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/x7_read_present_values.dir/src/x7_read_present_values.cpp.o[0m
+In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/src/x7_onoff.cpp:18[m[K:
+[01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+   18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/x7_onoff.dir/build.make:76: CMakeFiles/x7_onoff.dir/src/x7_onoff.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/x7_onoff.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 42%] [32mBuilding CXX object CMakeFiles/s17_write_velocity.dir/src/s17_write_velocity.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/x7_write_velocity.dir/src/x7_write_velocity.cpp.o[0m
+In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/src/x7_read_position.cpp:19[m[K:
+[01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+   18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/src/s17_write_position.cpp:20[m[K:
+[01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+   18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/s17_write_position.dir/build.make:76: CMakeFiles/s17_write_position.dir/src/s17_write_position.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/s17_write_position.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/x7_read_position.dir/build.make:76: CMakeFiles/x7_read_position.dir/src/x7_read_position.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/x7_read_position.dir/all] Error 2
+In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/src/s17_read_present_values.cpp:19[m[K:
+[01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+   18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/s17_read_present_values.dir/build.make:76: CMakeFiles/s17_read_present_values.dir/src/s17_read_present_values.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:397: CMakeFiles/s17_read_present_values.dir/all] Error 2
+In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/src/x7_thread.cpp:20[m[K:
+[01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+   18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/x7_thread.dir/build.make:76: CMakeFiles/x7_thread.dir/src/x7_thread.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:319: CMakeFiles/x7_thread.dir/all] Error 2
+In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/src/s17_read_position.cpp:19[m[K:
+[01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+   18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/s17_read_position.dir/build.make:76: CMakeFiles/s17_read_position.dir/src/s17_read_position.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:241: CMakeFiles/s17_read_position.dir/all] Error 2
+In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/src/s17_onoff.cpp:18[m[K:
+[01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+   18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/s17_onoff.dir/build.make:76: CMakeFiles/s17_onoff.dir/src/s17_onoff.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/s17_onoff.dir/all] Error 2
+In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/src/x7_write_position.cpp:20[m[K:
+[01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+   18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/x7_write_position.dir/build.make:76: CMakeFiles/x7_write_position.dir/src/x7_write_position.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:267: CMakeFiles/x7_write_position.dir/all] Error 2
+In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/src/x7_read_present_values.cpp:19[m[K:
+[01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+   18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/x7_read_present_values.dir/build.make:76: CMakeFiles/x7_read_present_values.dir/src/x7_read_present_values.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:371: CMakeFiles/x7_read_present_values.dir/all] Error 2
+In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/src/s17_thread.cpp:20[m[K:
+[01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+   18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/s17_thread.dir/build.make:76: CMakeFiles/s17_thread.dir/src/s17_thread.cpp.o] Error 1
+In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/src/s17_write_velocity.cpp:20[m[K:
+[01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+   18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[1]: *** [CMakeFiles/Makefile2:345: CMakeFiles/s17_thread.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/s17_write_velocity.dir/build.make:76: CMakeFiles/s17_write_velocity.dir/src/s17_write_velocity.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:449: CMakeFiles/s17_write_velocity.dir/all] Error 2
+In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+                 from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/src/x7_write_velocity.cpp:20[m[K:
+[01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+   18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/x7_write_velocity.dir/build.make:76: CMakeFiles/x7_write_velocity.dir/src/x7_write_velocity.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/x7_write_velocity.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

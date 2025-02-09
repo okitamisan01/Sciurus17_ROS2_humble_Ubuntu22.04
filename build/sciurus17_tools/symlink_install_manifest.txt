@@ -1,0 +1,17 @@
+/root/ros2_ws/install/sciurus17_tools/lib/sciurus17_tools//scripts/create_udev_rules
+/root/ros2_ws/install/sciurus17_tools/lib/sciurus17_tools//rules/91-sciurus17.rules
+/root/ros2_ws/install/sciurus17_tools/share/ament_index/resource_index/package_run_dependencies/sciurus17_tools
+/root/ros2_ws/install/sciurus17_tools/share/ament_index/resource_index/parent_prefix_path/sciurus17_tools
+/root/ros2_ws/install/sciurus17_tools/share/sciurus17_tools/environment/ament_prefix_path.sh
+/root/ros2_ws/install/sciurus17_tools/share/sciurus17_tools/environment/ament_prefix_path.dsv
+/root/ros2_ws/install/sciurus17_tools/share/sciurus17_tools/environment/path.sh
+/root/ros2_ws/install/sciurus17_tools/share/sciurus17_tools/environment/path.dsv
+/root/ros2_ws/install/sciurus17_tools/share/sciurus17_tools/local_setup.bash
+/root/ros2_ws/install/sciurus17_tools/share/sciurus17_tools/local_setup.sh
+/root/ros2_ws/install/sciurus17_tools/share/sciurus17_tools/local_setup.zsh
+/root/ros2_ws/install/sciurus17_tools/share/sciurus17_tools/local_setup.dsv
+/root/ros2_ws/install/sciurus17_tools/share/sciurus17_tools/package.dsv
+/root/ros2_ws/install/sciurus17_tools/share/ament_index/resource_index/packages/sciurus17_tools
+/root/ros2_ws/install/sciurus17_tools/share/sciurus17_tools/cmake/sciurus17_toolsConfig.cmake
+/root/ros2_ws/install/sciurus17_tools/share/sciurus17_tools/cmake/sciurus17_toolsConfig-version.cmake
+/root/ros2_ws/install/sciurus17_tools/share/sciurus17_tools/package.xml

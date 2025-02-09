@@ -1,0 +1,107 @@
+[0.021s] Invoking command in '/root/ros2_ws/build/samples01': CMAKE_PREFIX_PATH=/root/ros2_ws/install/dynamixel_sdk:/root/ros2_ws/install/sciurus17:/root/ros2_ws/install/sciurus17_examples:/root/ros2_ws/install/sciurus17_control:/root/ros2_ws/install/dynamixel_sdk_examples:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/install/sciurus17_examples/lib:/root/ros2_ws/install/sciurus17_control/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_ws/build/samples01 -- -j12 -l12
+[0.045s] -- Found rt_manipulators_cpp: 1.0.0 (/opt/ros/humble/share/rt_manipulators_cpp/cmake)
+[0.181s] [0mx7_onoff[0m
+[0.182s] [0ms17_onoff[0m
+[0.182s] [0mx7_read_position[0m
+[0.182s] [0ms17_read_position[0m
+[0.182s] [0mx7_write_position[0m
+[0.183s] [0ms17_write_position[0m
+[0.183s] [0mx7_thread[0m
+[0.183s] [0ms17_thread[0m
+[0.183s] [0mx7_read_present_values[0m
+[0.183s] [0ms17_read_present_values[0m
+[0.183s] [0mx7_write_velocity[0m
+[0.183s] [0ms17_write_velocity[0m
+[0.184s] [0mx7_write_current[0m
+[0.184s] [0ms17_write_current[0m
+[0.184s] -- Configuring done
+[0.185s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[0.185s]   Target "x7_onoff" links to target "dynamixel_sdk::dynamixel_sdk" but the
+[0.186s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.186s]   IMPORTED target, or an ALIAS target is missing?
+[0.186s] 
+[0.186s] [0m
+[0.186s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[0.186s]   Target "s17_onoff" links to target "dynamixel_sdk::dynamixel_sdk" but the
+[0.186s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.186s]   IMPORTED target, or an ALIAS target is missing?
+[0.187s] 
+[0.187s] [0m
+[0.187s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[0.187s]   Target "x7_read_position" links to target "dynamixel_sdk::dynamixel_sdk"
+[0.187s]   but the target was not found.  Perhaps a find_package() call is missing for
+[0.187s]   an IMPORTED target, or an ALIAS target is missing?
+[0.187s] 
+[0.187s] [0m
+[0.187s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[0.187s]   Target "s17_read_position" links to target "dynamixel_sdk::dynamixel_sdk"
+[0.187s]   but the target was not found.  Perhaps a find_package() call is missing for
+[0.187s]   an IMPORTED target, or an ALIAS target is missing?
+[0.187s] 
+[0.187s] [0m
+[0.188s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[0.188s]   Target "x7_write_position" links to target "dynamixel_sdk::dynamixel_sdk"
+[0.188s]   but the target was not found.  Perhaps a find_package() call is missing for
+[0.188s]   an IMPORTED target, or an ALIAS target is missing?
+[0.188s] 
+[0.188s] [0m
+[0.188s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[0.188s]   Target "s17_write_position" links to target "dynamixel_sdk::dynamixel_sdk"
+[0.188s]   but the target was not found.  Perhaps a find_package() call is missing for
+[0.188s]   an IMPORTED target, or an ALIAS target is missing?
+[0.188s] 
+[0.188s] [0m
+[0.189s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[0.189s]   Target "x7_thread" links to target "dynamixel_sdk::dynamixel_sdk" but the
+[0.189s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.189s]   IMPORTED target, or an ALIAS target is missing?
+[0.189s] 
+[0.189s] [0m
+[0.189s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[0.189s]   Target "s17_thread" links to target "dynamixel_sdk::dynamixel_sdk" but the
+[0.189s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.189s]   IMPORTED target, or an ALIAS target is missing?
+[0.189s] 
+[0.189s] [0m
+[0.189s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[0.190s]   Target "x7_read_present_values" links to target
+[0.190s]   "dynamixel_sdk::dynamixel_sdk" but the target was not found.  Perhaps a
+[0.190s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[0.190s]   is missing?
+[0.190s] 
+[0.190s] [0m
+[0.190s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[0.191s]   Target "s17_read_present_values" links to target
+[0.191s]   "dynamixel_sdk::dynamixel_sdk" but the target was not found.  Perhaps a
+[0.191s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[0.191s]   is missing?
+[0.191s] 
+[0.191s] [0m
+[0.191s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[0.191s]   Target "x7_write_velocity" links to target "dynamixel_sdk::dynamixel_sdk"
+[0.192s]   but the target was not found.  Perhaps a find_package() call is missing for
+[0.192s]   an IMPORTED target, or an ALIAS target is missing?
+[0.192s] 
+[0.192s] [0m
+[0.192s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[0.192s]   Target "s17_write_velocity" links to target "dynamixel_sdk::dynamixel_sdk"
+[0.192s]   but the target was not found.  Perhaps a find_package() call is missing for
+[0.193s]   an IMPORTED target, or an ALIAS target is missing?
+[0.193s] 
+[0.193s] [0m
+[0.193s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[0.193s]   Target "x7_write_current" links to target "dynamixel_sdk::dynamixel_sdk"
+[0.193s]   but the target was not found.  Perhaps a find_package() call is missing for
+[0.193s]   an IMPORTED target, or an ALIAS target is missing?
+[0.193s] 
+[0.193s] [0m
+[0.193s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[0.194s]   Target "s17_write_current" links to target "dynamixel_sdk::dynamixel_sdk"
+[0.194s]   but the target was not found.  Perhaps a find_package() call is missing for
+[0.194s]   an IMPORTED target, or an ALIAS target is missing?
+[0.194s] 
+[0.194s] [0m
+[0.207s] -- Generating done
+[0.211s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.214s] gmake: *** [Makefile:740: cmake_check_build_system] Error 1
+[0.217s] Invoked command in '/root/ros2_ws/build/samples01' returned '2': CMAKE_PREFIX_PATH=/root/ros2_ws/install/dynamixel_sdk:/root/ros2_ws/install/sciurus17:/root/ros2_ws/install/sciurus17_examples:/root/ros2_ws/install/sciurus17_control:/root/ros2_ws/install/dynamixel_sdk_examples:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/install/sciurus17_examples/lib:/root/ros2_ws/install/sciurus17_control/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_ws/build/samples01 -- -j12 -l12

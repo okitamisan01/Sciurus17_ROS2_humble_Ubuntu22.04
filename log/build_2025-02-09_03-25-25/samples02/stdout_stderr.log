@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target s17_forward_kinematics[0m
+[35m[1mConsolidate compiler generated dependencies of target x7_forward_kinematics[0m
+[35m[1mConsolidate compiler generated dependencies of target x7_inverse_kinematics[0m
+[35m[1mConsolidate compiler generated dependencies of target s17_inverse_kinematics[0m
+[ 37%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples02/bin/x7_forward_kinematics[0m
+[ 50%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples02/bin/s17_inverse_kinematics[0m
+[ 50%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples02/bin/s17_forward_kinematics[0m
+[ 50%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples02/bin/x7_inverse_kinematics[0m
+/usr/bin/ld/usr/bin/ld/usr/bin/ld: cannot find : cannot find : cannot find -lrt_manipulators_cpp-lrt_manipulators_cpp-lrt_manipulators_cpp: : : No such file or directory
+No such file or directoryNo such file or directory
+
+/usr/bin/ld: cannot find -lrt_manipulators_cpp: No such file or directory
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/x7_inverse_kinematics.dir/build.make:97: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples02/bin/x7_inverse_kinematics] Error 1
+gmake[2]: *** [CMakeFiles/x7_forward_kinematics.dir/build.make:97: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples02/bin/x7_forward_kinematics] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/x7_inverse_kinematics.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/x7_forward_kinematics.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/s17_forward_kinematics.dir/build.make:97: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples02/bin/s17_forward_kinematics] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/s17_forward_kinematics.dir/all] Error 2
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/s17_inverse_kinematics.dir/build.make:97: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples02/bin/s17_inverse_kinematics] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/s17_inverse_kinematics.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

@@ -1,0 +1,6 @@
+Invoking command in '/root/ros2_ws/build/rt_manipulators_cpp': /usr/bin/cmake /root/ros2_ws/src/rt_manipulators_cpp/rt_manipulators_lib -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/rt_manipulators_cpp
+Invoked command in '/root/ros2_ws/build/rt_manipulators_cpp' returned '0': /usr/bin/cmake /root/ros2_ws/src/rt_manipulators_cpp/rt_manipulators_lib -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/rt_manipulators_cpp
+Invoking command in '/root/ros2_ws/build/rt_manipulators_cpp': /usr/bin/cmake --build /root/ros2_ws/build/rt_manipulators_cpp -- -j12 -l12
+Invoked command in '/root/ros2_ws/build/rt_manipulators_cpp' returned '0': /usr/bin/cmake --build /root/ros2_ws/build/rt_manipulators_cpp -- -j12 -l12
+Invoking command in '/root/ros2_ws/build/rt_manipulators_cpp': /usr/bin/cmake --install /root/ros2_ws/build/rt_manipulators_cpp
+Invoked command in '/root/ros2_ws/build/rt_manipulators_cpp' returned '0': /usr/bin/cmake --install /root/ros2_ws/build/rt_manipulators_cpp

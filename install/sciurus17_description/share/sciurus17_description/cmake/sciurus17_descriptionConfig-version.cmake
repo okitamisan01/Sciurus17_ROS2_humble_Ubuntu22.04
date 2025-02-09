@@ -1,0 +1,1 @@
+/root/ros2_ws/build/sciurus17_description/ament_cmake_core/sciurus17_descriptionConfig-version.cmake

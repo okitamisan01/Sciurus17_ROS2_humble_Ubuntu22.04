@@ -1,0 +1,58 @@
+-- Found rt_manipulators_cpp: 1.0.0 (/opt/ros/humble/share/rt_manipulators_cpp/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/build/samples01
+[35m[1mConsolidate compiler generated dependencies of target s17_write_position[0m
+[35m[1mConsolidate compiler generated dependencies of target x7_onoff[0m
+[35m[1mConsolidate compiler generated dependencies of target x7_read_position[0m
+[35m[1mConsolidate compiler generated dependencies of target x7_thread[0m
+[35m[1mConsolidate compiler generated dependencies of target x7_write_position[0m
+[35m[1mConsolidate compiler generated dependencies of target s17_thread[0m
+[35m[1mConsolidate compiler generated dependencies of target x7_read_present_values[0m
+[35m[1mConsolidate compiler generated dependencies of target s17_onoff[0m
+[35m[1mConsolidate compiler generated dependencies of target x7_write_velocity[0m
+[35m[1mConsolidate compiler generated dependencies of target s17_read_present_values[0m
+[35m[1mConsolidate compiler generated dependencies of target s17_read_position[0m
+[35m[1mConsolidate compiler generated dependencies of target s17_write_velocity[0m
+[  3%] [32mBuilding CXX object CMakeFiles/x7_read_position.dir/src/x7_read_position.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/x7_onoff.dir/src/x7_onoff.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/x7_write_position.dir/src/x7_write_position.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/s17_write_position.dir/src/s17_write_position.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/x7_thread.dir/src/x7_thread.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/x7_read_present_values.dir/src/x7_read_present_values.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/x7_write_velocity.dir/src/x7_write_velocity.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/s17_read_present_values.dir/src/s17_read_present_values.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/s17_thread.dir/src/s17_thread.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/s17_write_velocity.dir/src/s17_write_velocity.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/s17_onoff.dir/src/s17_onoff.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/s17_read_position.dir/src/s17_read_position.cpp.o[0m
+[ 46%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_onoff[0m
+[ 53%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_read_position[0m
+[ 53%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_onoff[0m
+[ 57%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_read_present_values[0m
+[ 60%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_read_position[0m
+[ 64%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_write_position[0m
+[ 67%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_write_position[0m
+[ 71%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_thread[0m
+[ 75%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_read_present_values[0m
+[ 78%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_thread[0m
+[ 82%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_write_velocity[0m
+[ 85%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_write_velocity[0m
+[ 85%] Built target s17_read_position
+[ 85%] Built target x7_onoff
+[ 85%] Built target s17_onoff
+[ 85%] Built target x7_read_present_values
+[ 89%] [32mBuilding CXX object CMakeFiles/x7_write_current.dir/src/x7_write_current.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/s17_write_current.dir/src/s17_write_current.cpp.o[0m
+[ 92%] Built target x7_read_position
+[ 92%] Built target s17_write_position
+[ 92%] Built target x7_write_position
+[ 92%] Built target s17_thread
+[ 92%] Built target x7_thread
+[ 92%] Built target s17_read_present_values
+[ 92%] Built target x7_write_velocity
+[ 92%] Built target s17_write_velocity
+[ 96%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_write_current[0m
+[100%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_write_current[0m
+[100%] Built target s17_write_current
+[100%] Built target x7_write_current

@@ -1,0 +1,14 @@
+[  7%] Built target s17_onoff
+[ 14%] Built target s17_read_position
+[ 21%] Built target x7_onoff
+[ 28%] Built target x7_read_position
+[ 35%] Built target x7_write_position
+[ 42%] Built target s17_write_position
+[ 50%] Built target s17_thread
+[ 64%] Built target x7_read_present_values
+[ 64%] Built target x7_thread
+[ 71%] Built target s17_read_present_values
+[ 78%] Built target x7_write_velocity
+[ 85%] Built target s17_write_velocity
+[ 92%] Built target x7_write_current
+[100%] Built target s17_write_current

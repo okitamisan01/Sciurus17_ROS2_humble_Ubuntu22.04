@@ -1,0 +1,245 @@
+[0.024s] Invoking command in '/root/ros2_ws/build/samples01': CMAKE_PREFIX_PATH=/root/ros2_ws/install/dynamixel_sdk:/root/ros2_ws/install/sciurus17:/root/ros2_ws/install/sciurus17_examples:/root/ros2_ws/install/sciurus17_control:/root/ros2_ws/install/dynamixel_sdk_examples:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/install/sciurus17_examples/lib:/root/ros2_ws/install/sciurus17_control/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_ws/build/samples01 -- -j12 -l12
+[0.047s] -- Found rt_manipulators_cpp: 1.0.0 (/opt/ros/humble/share/rt_manipulators_cpp/cmake)
+[0.183s] [0mx7_onoff[0m
+[0.183s] [0ms17_onoff[0m
+[0.183s] [0mx7_read_position[0m
+[0.184s] [0ms17_read_position[0m
+[0.184s] [0mx7_write_position[0m
+[0.184s] [0ms17_write_position[0m
+[0.184s] [0mx7_thread[0m
+[0.184s] [0ms17_thread[0m
+[0.185s] [0mx7_read_present_values[0m
+[0.185s] [0ms17_read_present_values[0m
+[0.185s] [0mx7_write_velocity[0m
+[0.185s] -- Configuring done
+[0.185s] [0ms17_write_velocity[0m
+[0.185s] [0mx7_write_current[0m
+[0.185s] [0ms17_write_current[0m
+[0.187s] [31mCMake Error in CMakeLists.txt:
+[0.187s]   Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path
+[0.187s] 
+[0.187s]     "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"
+[0.187s] 
+[0.187s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[0.187s] 
+[0.187s]   * The path was deleted, renamed, or moved to another location.
+[0.187s] 
+[0.188s]   * An install or uninstall procedure did not complete successfully.
+[0.188s] 
+[0.188s]   * The installation package was faulty and references files it does not
+[0.188s]   provide.
+[0.188s] 
+[0.188s] 
+[0.188s] [0m
+[0.189s] [31mCMake Error in CMakeLists.txt:
+[0.189s]   Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path
+[0.189s] 
+[0.189s]     "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"
+[0.189s] 
+[0.189s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[0.189s] 
+[0.189s]   * The path was deleted, renamed, or moved to another location.
+[0.189s] 
+[0.190s]   * An install or uninstall procedure did not complete successfully.
+[0.190s] 
+[0.190s]   * The installation package was faulty and references files it does not
+[0.190s]   provide.
+[0.190s] 
+[0.190s] 
+[0.190s] [0m
+[0.190s] [31mCMake Error in CMakeLists.txt:
+[0.191s]   Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path
+[0.191s] 
+[0.191s]     "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"
+[0.191s] 
+[0.191s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[0.191s] 
+[0.191s]   * The path was deleted, renamed, or moved to another location.
+[0.191s] 
+[0.191s]   * An install or uninstall procedure did not complete successfully.
+[0.192s] 
+[0.192s]   * The installation package was faulty and references files it does not
+[0.192s]   provide.
+[0.192s] 
+[0.192s] 
+[0.192s] [0m
+[0.192s] [31mCMake Error in CMakeLists.txt:
+[0.193s]   Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path
+[0.193s] 
+[0.193s]     "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"
+[0.193s] 
+[0.193s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[0.193s] 
+[0.193s]   * The path was deleted, renamed, or moved to another location.
+[0.193s] 
+[0.193s]   * An install or uninstall procedure did not complete successfully.
+[0.193s] 
+[0.194s]   * The installation package was faulty and references files it does not
+[0.194s]   provide.
+[0.194s] 
+[0.194s] 
+[0.194s] [0m
+[0.194s] [31mCMake Error in CMakeLists.txt:
+[0.194s]   Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path
+[0.194s] 
+[0.194s]     "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"
+[0.195s] 
+[0.195s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[0.195s] 
+[0.195s]   * The path was deleted, renamed, or moved to another location.
+[0.195s] 
+[0.195s]   * An install or uninstall procedure did not complete successfully.
+[0.195s] 
+[0.195s]   * The installation package was faulty and references files it does not
+[0.195s]   provide.
+[0.196s] 
+[0.196s] 
+[0.196s] [0m
+[0.196s] [31mCMake Error in CMakeLists.txt:
+[0.196s]   Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path
+[0.196s] 
+[0.196s]     "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"
+[0.197s] 
+[0.197s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[0.197s] 
+[0.197s]   * The path was deleted, renamed, or moved to another location.
+[0.197s] 
+[0.197s]   * An install or uninstall procedure did not complete successfully.
+[0.197s] 
+[0.197s]   * The installation package was faulty and references files it does not
+[0.198s]   provide.
+[0.198s] 
+[0.198s] 
+[0.198s] [0m
+[0.198s] [31mCMake Error in CMakeLists.txt:
+[0.198s]   Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path
+[0.198s] 
+[0.198s]     "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"
+[0.199s] 
+[0.199s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[0.199s] 
+[0.199s]   * The path was deleted, renamed, or moved to another location.
+[0.199s] 
+[0.199s]   * An install or uninstall procedure did not complete successfully.
+[0.199s] 
+[0.199s]   * The installation package was faulty and references files it does not
+[0.199s]   provide.
+[0.199s] 
+[0.199s] 
+[0.200s] [0m
+[0.200s] [31mCMake Error in CMakeLists.txt:
+[0.200s]   Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path
+[0.200s] 
+[0.200s]     "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"
+[0.200s] 
+[0.200s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[0.200s] 
+[0.201s]   * The path was deleted, renamed, or moved to another location.
+[0.201s] 
+[0.201s]   * An install or uninstall procedure did not complete successfully.
+[0.201s] 
+[0.201s]   * The installation package was faulty and references files it does not
+[0.201s]   provide.
+[0.201s] 
+[0.201s] 
+[0.201s] [0m
+[0.201s] [31mCMake Error in CMakeLists.txt:
+[0.202s]   Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path
+[0.202s] 
+[0.202s]     "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"
+[0.202s] 
+[0.202s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[0.202s] 
+[0.202s]   * The path was deleted, renamed, or moved to another location.
+[0.203s] 
+[0.203s]   * An install or uninstall procedure did not complete successfully.
+[0.203s] 
+[0.203s]   * The installation package was faulty and references files it does not
+[0.203s]   provide.
+[0.203s] 
+[0.203s] 
+[0.203s] [0m
+[0.203s] [31mCMake Error in CMakeLists.txt:
+[0.203s]   Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path
+[0.204s] 
+[0.204s]     "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"
+[0.204s] 
+[0.204s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[0.204s] 
+[0.204s]   * The path was deleted, renamed, or moved to another location.
+[0.205s] 
+[0.205s]   * An install or uninstall procedure did not complete successfully.
+[0.205s] 
+[0.205s]   * The installation package was faulty and references files it does not
+[0.205s]   provide.
+[0.205s] 
+[0.206s] 
+[0.206s] [0m
+[0.206s] [31mCMake Error in CMakeLists.txt:
+[0.206s]   Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path
+[0.206s] 
+[0.207s]     "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"
+[0.207s] 
+[0.207s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[0.207s] 
+[0.207s]   * The path was deleted, renamed, or moved to another location.
+[0.207s] 
+[0.207s]   * An install or uninstall procedure did not complete successfully.
+[0.207s] 
+[0.208s]   * The installation package was faulty and references files it does not
+[0.208s]   provide.
+[0.208s] 
+[0.208s] 
+[0.208s] [0m
+[0.209s] [31mCMake Error in CMakeLists.txt:
+[0.209s]   Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path
+[0.209s] 
+[0.209s]     "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"
+[0.209s] 
+[0.209s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[0.209s] 
+[0.209s]   * The path was deleted, renamed, or moved to another location.
+[0.209s] 
+[0.210s]   * An install or uninstall procedure did not complete successfully.
+[0.210s] 
+[0.210s]   * The installation package was faulty and references files it does not
+[0.210s]   provide.
+[0.210s] 
+[0.210s] 
+[0.210s] [0m
+[0.210s] [31mCMake Error in CMakeLists.txt:
+[0.211s]   Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path
+[0.211s] 
+[0.211s]     "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"
+[0.211s] 
+[0.211s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[0.211s] 
+[0.211s]   * The path was deleted, renamed, or moved to another location.
+[0.211s] 
+[0.211s]   * An install or uninstall procedure did not complete successfully.
+[0.212s] 
+[0.212s]   * The installation package was faulty and references files it does not
+[0.212s]   provide.
+[0.212s] 
+[0.212s] 
+[0.212s] [0m
+[0.212s] [31mCMake Error in CMakeLists.txt:
+[0.212s]   Imported target "dynamixel_sdk::dynamixel_sdk" includes non-existent path
+[0.212s] 
+[0.212s]     "~/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/include"
+[0.213s] 
+[0.213s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[0.213s] 
+[0.213s]   * The path was deleted, renamed, or moved to another location.
+[0.213s] 
+[0.213s]   * An install or uninstall procedure did not complete successfully.
+[0.214s] 
+[0.214s]   * The installation package was faulty and references files it does not
+[0.214s]   provide.
+[0.214s] 
+[0.214s] 
+[0.214s] [0m
+[0.214s] -- Generating done
+[0.217s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.219s] gmake: *** [Makefile:740: cmake_check_build_system] Error 1
+[0.222s] Invoked command in '/root/ros2_ws/build/samples01' returned '2': CMAKE_PREFIX_PATH=/root/ros2_ws/install/dynamixel_sdk:/root/ros2_ws/install/sciurus17:/root/ros2_ws/install/sciurus17_examples:/root/ros2_ws/install/sciurus17_control:/root/ros2_ws/install/dynamixel_sdk_examples:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/install/sciurus17_examples/lib:/root/ros2_ws/install/sciurus17_control/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_ws/build/samples01 -- -j12 -l12

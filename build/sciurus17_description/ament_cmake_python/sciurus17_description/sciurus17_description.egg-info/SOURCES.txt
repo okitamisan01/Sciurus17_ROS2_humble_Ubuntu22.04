@@ -1,0 +1,7 @@
+setup.py
+sciurus17_description/__init__.py
+sciurus17_description/robot_description_loader.py
+sciurus17_description.egg-info/PKG-INFO
+sciurus17_description.egg-info/SOURCES.txt
+sciurus17_description.egg-info/dependency_links.txt
+sciurus17_description.egg-info/top_level.txt

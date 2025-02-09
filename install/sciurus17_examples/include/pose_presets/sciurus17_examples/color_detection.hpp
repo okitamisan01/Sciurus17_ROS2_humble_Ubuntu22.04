@@ -1,0 +1,1 @@
+/root/ros2_ws/src/sciurus17_ros/sciurus17_examples/include/sciurus17_examples/color_detection.hpp

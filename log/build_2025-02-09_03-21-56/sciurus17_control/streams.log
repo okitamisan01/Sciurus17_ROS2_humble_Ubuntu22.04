@@ -1,0 +1,37 @@
+[0.039s] Invoking command in '/root/ros2_ws/build/sciurus17_control': CMAKE_PREFIX_PATH=/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces:/root/ros2_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_ws/build/sciurus17_control -- -j12 -l12
+[0.133s] [ 50%] [32mBuilding CXX object CMakeFiles/sciurus17_hardware.dir/src/sciurus17_hardware.cpp.o[0m
+[6.195s] [100%] [32m[1mLinking CXX shared library libsciurus17_hardware.so[0m
+[6.400s] [100%] Built target sciurus17_hardware
+[6.415s] Invoked command in '/root/ros2_ws/build/sciurus17_control' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces:/root/ros2_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_ws/build/sciurus17_control -- -j12 -l12
+[6.430s] Invoking command in '/root/ros2_ws/build/sciurus17_control': CMAKE_PREFIX_PATH=/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces:/root/ros2_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ros2_ws/build/sciurus17_control
+[6.439s] -- Install configuration: ""
+[6.440s] -- Execute custom install script
+[6.441s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control//sciurus17_hardware.xml
+[6.454s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/lib/libsciurus17_hardware.so
+[6.466s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/include/sciurus17_control/sciurus17_hardware.hpp
+[6.477s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/include/sciurus17_control/visibility_control.h
+[6.489s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control//launch/sciurus17_control.launch.py
+[6.500s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control//config/manipulator_config.yaml
+[6.513s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control//config/sciurus17_controllers.yaml
+[6.524s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/environment/library_path.sh
+[6.534s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/environment/library_path.dsv
+[6.547s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/ament_index/resource_index/package_run_dependencies/sciurus17_control
+[6.561s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/ament_index/resource_index/parent_prefix_path/sciurus17_control
+[6.574s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/environment/ament_prefix_path.sh
+[6.584s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/environment/ament_prefix_path.dsv
+[6.595s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/environment/path.sh
+[6.607s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/environment/path.dsv
+[6.618s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/local_setup.bash
+[6.629s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/local_setup.sh
+[6.640s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/local_setup.zsh
+[6.652s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/local_setup.dsv
+[6.664s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/package.dsv
+[6.676s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/ament_index/resource_index/packages/sciurus17_control
+[6.688s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/sciurus17_control
+[6.701s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.713s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/cmake/ament_cmake_export_libraries-extras.cmake
+[6.723s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.734s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/cmake/sciurus17_controlConfig.cmake
+[6.745s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/cmake/sciurus17_controlConfig-version.cmake
+[6.758s] -- Symlinking: /root/ros2_ws/install/sciurus17_control/share/sciurus17_control/package.xml
+[6.772s] Invoked command in '/root/ros2_ws/build/sciurus17_control' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces:/root/ros2_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ros2_ws/build/sciurus17_control

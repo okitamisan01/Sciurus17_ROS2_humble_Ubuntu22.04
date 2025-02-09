@@ -1,0 +1,112 @@
+[0.051s] Invoking command in '/root/ros2_ws/build/samples03': CMAKE_PREFIX_PATH=/root/ros2_ws/install/dynamixel_sdk:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_ws/build/samples03 -- -j12 -l12
+[0.108s] -- Found rt_manipulators_cpp: 1.0.0 (/opt/ros/humble/share/rt_manipulators_cpp/cmake)
+[0.451s] [0mx7_3dof_inverse_kinematics[0m
+[0.452s] [0ms17_3dof_inverse_kinematics[0m
+[0.452s] [0mx7_gravity_compensation[0m
+[0.453s] [0ms17_gravity_compensation[0m
+[0.453s] -- Configuring done
+[0.497s] -- Generating done
+[0.510s] -- Build files have been written to: /root/ros2_ws/build/samples03
+[0.597s] [  6%] [32mBuilding CXX object CMakeFiles/x7_3dof_inverse_kinematics.dir/src/x7_3dof_inverse_kinematics.cpp.o[0m
+[0.598s] [ 12%] [32mBuilding CXX object CMakeFiles/s17_3dof_inverse_kinematics.dir/src/s17_3dof_inverse_kinematics.cpp.o[0m
+[0.599s] [ 25%] [32mBuilding CXX object CMakeFiles/x7_gravity_compensation.dir/src/rt_manipulators_ik.cpp.o[0m
+[0.600s] [ 25%] [32mBuilding CXX object CMakeFiles/x7_3dof_inverse_kinematics.dir/src/rt_manipulators_ik.cpp.o[0m
+[0.600s] [ 31%] [32mBuilding CXX object CMakeFiles/s17_gravity_compensation.dir/src/s17_gravity_compensation.cpp.o[0m
+[0.601s] [ 37%] [32mBuilding CXX object CMakeFiles/x7_gravity_compensation.dir/src/x7_gravity_compensation.cpp.o[0m
+[0.610s] [ 56%] [32mBuilding CXX object CMakeFiles/s17_gravity_compensation.dir/src/rt_manipulators_dynamics.cpp.o[0m
+[0.610s] [ 56%] [32mBuilding CXX object CMakeFiles/x7_gravity_compensation.dir/src/rt_manipulators_dynamics.cpp.o[0m
+[0.610s] [ 56%] [32mBuilding CXX object CMakeFiles/s17_gravity_compensation.dir/src/rt_manipulators_ik.cpp.o[0m
+[0.613s] [ 62%] [32mBuilding CXX object CMakeFiles/s17_3dof_inverse_kinematics.dir/src/rt_manipulators_dynamics.cpp.o[0m
+[0.618s] [ 68%] [32mBuilding CXX object CMakeFiles/s17_3dof_inverse_kinematics.dir/src/rt_manipulators_ik.cpp.o[0m
+[0.631s] [ 75%] [32mBuilding CXX object CMakeFiles/x7_3dof_inverse_kinematics.dir/src/rt_manipulators_dynamics.cpp.o[0m
+[0.753s] In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/src/rt_manipulators_ik.cpp:16[m[K:
+[0.753s] [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/include/rt_manipulators_ik.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Krt_manipulators_cpp/kinematics_utils.hpp: No such file or directory
+[0.753s]    18 | #include [01;31m[K"rt_manipulators_cpp/kinematics_utils.hpp"[m[K
+[0.754s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.754s] compilation terminated.
+[0.761s] gmake[2]: *** [CMakeFiles/x7_gravity_compensation.dir/build.make:90: CMakeFiles/x7_gravity_compensation.dir/src/rt_manipulators_ik.cpp.o] Error 1
+[0.761s] gmake[2]: *** Waiting for unfinished jobs....
+[0.761s] In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/src/rt_manipulators_ik.cpp:16[m[K:
+[0.762s] [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/include/rt_manipulators_ik.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Krt_manipulators_cpp/kinematics_utils.hpp: No such file or directory
+[0.762s]    18 | #include [01;31m[K"rt_manipulators_cpp/kinematics_utils.hpp"[m[K
+[0.762s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.762s] compilation terminated.
+[0.766s] In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/src/rt_manipulators_ik.cpp:16[m[K:
+[0.767s] [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/include/rt_manipulators_ik.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Krt_manipulators_cpp/kinematics_utils.hpp: No such file or directory
+[0.767s]    18 | #include [01;31m[K"rt_manipulators_cpp/kinematics_utils.hpp"[m[K
+[0.768s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.769s] compilation terminated.
+[0.769s] In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/src/rt_manipulators_ik.cpp:16[m[K:
+[0.769s] [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/include/rt_manipulators_ik.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Krt_manipulators_cpp/kinematics_utils.hpp: No such file or directory
+[0.769s]    18 | #include [01;31m[K"rt_manipulators_cpp/kinematics_utils.hpp"[m[K
+[0.770s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.770s] compilation terminated.
+[0.770s] gmake[2]: *** [CMakeFiles/x7_3dof_inverse_kinematics.dir/build.make:90: CMakeFiles/x7_3dof_inverse_kinematics.dir/src/rt_manipulators_ik.cpp.o] Error 1
+[0.775s] gmake[2]: *** Waiting for unfinished jobs....
+[0.776s] gmake[2]: *** [CMakeFiles/s17_gravity_compensation.dir/build.make:90: CMakeFiles/s17_gravity_compensation.dir/src/rt_manipulators_ik.cpp.o] Error 1
+[0.776s] gmake[2]: *** Waiting for unfinished jobs....
+[0.776s] gmake[2]: *** [CMakeFiles/s17_3dof_inverse_kinematics.dir/build.make:90: CMakeFiles/s17_3dof_inverse_kinematics.dir/src/rt_manipulators_ik.cpp.o] Error 1
+[0.776s] gmake[2]: *** Waiting for unfinished jobs....
+[0.783s] In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/src/rt_manipulators_dynamics.cpp:16[m[K:
+[0.783s] [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/include/rt_manipulators_dynamics.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Krt_manipulators_cpp/kinematics_utils.hpp: No such file or directory
+[0.784s]    20 | #include [01;31m[K"rt_manipulators_cpp/kinematics_utils.hpp"[m[K
+[0.784s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.784s] compilation terminated.
+[0.787s] gmake[2]: *** [CMakeFiles/s17_3dof_inverse_kinematics.dir/build.make:104: CMakeFiles/s17_3dof_inverse_kinematics.dir/src/rt_manipulators_dynamics.cpp.o] Error 1
+[0.791s] In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+[0.792s]                  from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+[0.793s]                  from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+[0.793s]                  from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/src/s17_3dof_inverse_kinematics.cpp:19[m[K:
+[0.794s] [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+[0.794s]    18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+[0.794s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.794s] compilation terminated.
+[0.795s] In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/src/rt_manipulators_dynamics.cpp:16[m[K:
+[0.795s] [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/include/rt_manipulators_dynamics.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Krt_manipulators_cpp/kinematics_utils.hpp: No such file or directory
+[0.795s]    20 | #include [01;31m[K"rt_manipulators_cpp/kinematics_utils.hpp"[m[K
+[0.796s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.797s] compilation terminated.
+[0.797s] [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/src/x7_gravity_compensation.cpp:26:10:[m[K [01;31m[Kfatal error: [m[Krt_manipulators_cpp/hardware.hpp: No such file or directory
+[0.798s]    26 | #include [01;31m[K"rt_manipulators_cpp/hardware.hpp"[m[K
+[0.798s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.799s] compilation terminated.
+[0.799s] gmake[2]: *** [CMakeFiles/s17_3dof_inverse_kinematics.dir/build.make:76: CMakeFiles/s17_3dof_inverse_kinematics.dir/src/s17_3dof_inverse_kinematics.cpp.o] Error 1
+[0.800s] gmake[2]: *** [CMakeFiles/x7_gravity_compensation.dir/build.make:104: CMakeFiles/x7_gravity_compensation.dir/src/rt_manipulators_dynamics.cpp.o] Error 1
+[0.800s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/s17_3dof_inverse_kinematics.dir/all] Error 2
+[0.800s] gmake[1]: *** Waiting for unfinished jobs....
+[0.800s] gmake[2]: *** [CMakeFiles/x7_gravity_compensation.dir/build.make:76: CMakeFiles/x7_gravity_compensation.dir/src/x7_gravity_compensation.cpp.o] Error 1
+[0.800s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/x7_gravity_compensation.dir/all] Error 2
+[0.801s] In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+[0.801s]                  from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+[0.801s]                  from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+[0.801s]                  from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/src/s17_gravity_compensation.cpp:26[m[K:
+[0.801s] [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+[0.802s]    18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+[0.802s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.802s] compilation terminated.
+[0.805s] gmake[2]: *** [CMakeFiles/s17_gravity_compensation.dir/build.make:76: CMakeFiles/s17_gravity_compensation.dir/src/s17_gravity_compensation.cpp.o] Error 1
+[0.813s] In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/src/rt_manipulators_dynamics.cpp:16[m[K:
+[0.813s] [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/include/rt_manipulators_dynamics.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Krt_manipulators_cpp/kinematics_utils.hpp: No such file or directory
+[0.814s]    20 | #include [01;31m[K"rt_manipulators_cpp/kinematics_utils.hpp"[m[K
+[0.814s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.814s] compilation terminated.
+[0.817s] gmake[2]: *** [CMakeFiles/s17_gravity_compensation.dir/build.make:104: CMakeFiles/s17_gravity_compensation.dir/src/rt_manipulators_dynamics.cpp.o] Error 1
+[0.818s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/s17_gravity_compensation.dir/all] Error 2
+[0.830s] In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/../../rt_manipulators_lib/include/dynamixel_base.hpp:22[m[K,
+[0.830s]                  from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/../../rt_manipulators_lib/include/joint.hpp:23[m[K,
+[0.831s]                  from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/../../rt_manipulators_lib/include/hardware.hpp:25[m[K,
+[0.831s]                  from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/src/x7_3dof_inverse_kinematics.cpp:19[m[K:
+[0.831s] [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/../../rt_manipulators_lib/include/hardware_communicator.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_sdk.h: No such file or directory
+[0.831s]    18 | #include [01;31m[K<dynamixel_sdk.h>[m[K
+[0.832s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.832s] compilation terminated.
+[0.832s] In file included from [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/src/rt_manipulators_dynamics.cpp:16[m[K:
+[0.832s] [01m[K/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03/include/rt_manipulators_dynamics.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Krt_manipulators_cpp/kinematics_utils.hpp: No such file or directory
+[0.832s]    20 | #include [01;31m[K"rt_manipulators_cpp/kinematics_utils.hpp"[m[K
+[0.833s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.833s] compilation terminated.
+[0.834s] gmake[2]: *** [CMakeFiles/x7_3dof_inverse_kinematics.dir/build.make:76: CMakeFiles/x7_3dof_inverse_kinematics.dir/src/x7_3dof_inverse_kinematics.cpp.o] Error 1
+[0.834s] gmake[2]: *** [CMakeFiles/x7_3dof_inverse_kinematics.dir/build.make:104: CMakeFiles/x7_3dof_inverse_kinematics.dir/src/rt_manipulators_dynamics.cpp.o] Error 1
+[0.834s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/x7_3dof_inverse_kinematics.dir/all] Error 2
+[0.835s] gmake: *** [Makefile:91: all] Error 2
+[0.840s] Invoked command in '/root/ros2_ws/build/samples03' returned '2': CMAKE_PREFIX_PATH=/root/ros2_ws/install/dynamixel_sdk:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_ws/build/samples03 -- -j12 -l12

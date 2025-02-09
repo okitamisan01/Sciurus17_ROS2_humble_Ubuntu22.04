@@ -1,0 +1,19 @@
+[0.000000] (-) TimerEvent: {}
+[0.001021] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.001145] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001259] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001374] (-) JobUnselected: {'identifier': 'rt_manipulators_cpp'}
+[0.001460] (-) JobUnselected: {'identifier': 'samples01'}
+[0.001544] (-) JobUnselected: {'identifier': 'samples02'}
+[0.001629] (-) JobUnselected: {'identifier': 'samples03'}
+[0.001714] (-) JobUnselected: {'identifier': 'sciurus17_control'}
+[0.001798] (-) JobUnselected: {'identifier': 'sciurus17_description'}
+[0.001882] (-) JobUnselected: {'identifier': 'sciurus17_examples'}
+[0.001967] (-) JobUnselected: {'identifier': 'sciurus17_gazebo'}
+[0.002057] (-) JobUnselected: {'identifier': 'sciurus17_moveit_config'}
+[0.002142] (-) JobUnselected: {'identifier': 'sciurus17_tools'}
+[0.002226] (-) JobUnselected: {'identifier': 'sciurus17_vision'}
+[0.002314] (sciurus17) JobQueued: {'identifier': 'sciurus17', 'dependencies': OrderedDict([('rt_manipulators_cpp', '/root/ros2_ws/install/rt_manipulators_cpp'), ('sciurus17_description', '/root/ros2_ws/install/sciurus17_description'), ('sciurus17_gazebo', '/root/ros2_ws/install/sciurus17_gazebo'), ('sciurus17_tools', '/root/ros2_ws/install/sciurus17_tools'), ('sciurus17_control', '/root/ros2_ws/install/sciurus17_control'), ('sciurus17_moveit_config', '/root/ros2_ws/install/sciurus17_moveit_config'), ('sciurus17_examples', '/root/ros2_ws/install/sciurus17_examples')])}
+[0.002910] (sciurus17) JobStarted: {'identifier': 'sciurus17'}
+[0.033133] (sciurus17) JobEnded: {'identifier': 'sciurus17', 'rc': 1}
+[0.044275] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+source;share/sciurus17_moveit_config/environment/ament_prefix_path.sh
+source;share/sciurus17_moveit_config/environment/path.sh

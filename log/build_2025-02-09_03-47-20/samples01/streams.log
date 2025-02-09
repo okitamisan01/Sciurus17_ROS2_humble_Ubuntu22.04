@@ -1,0 +1,94 @@
+[0.030s] Invoking command in '/root/ros2_ws/build/samples01': CMAKE_PREFIX_PATH=/root/ros2_ws/install/dynamixel_sdk:/root/ros2_ws/install/sciurus17:/root/ros2_ws/install/sciurus17_examples:/root/ros2_ws/install/sciurus17_control:/root/ros2_ws/install/dynamixel_sdk_examples:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/install/sciurus17_examples/lib:/root/ros2_ws/install/sciurus17_control/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_ws/build/samples01 -- -j12 -l12
+[0.109s] -- Found rt_manipulators_cpp: 1.0.0 (/opt/ros/humble/share/rt_manipulators_cpp/cmake)
+[0.279s] [0mx7_onoff[0m
+[0.280s] [0ms17_onoff[0m
+[0.280s] [0mx7_read_position[0m
+[0.280s] [0ms17_read_position[0m
+[0.280s] [0mx7_write_position[0m
+[0.280s] [0ms17_write_position[0m
+[0.280s] [0mx7_thread[0m
+[0.281s] [0ms17_thread[0m
+[0.281s] [0mx7_read_present_values[0m
+[0.281s] [0ms17_read_present_values[0m
+[0.281s] [0mx7_write_velocity[0m
+[0.281s] [0ms17_write_velocity[0m
+[0.281s] [0mx7_write_current[0m
+[0.281s] [0ms17_write_current[0m
+[0.281s] -- Configuring done
+[0.326s] -- Generating done
+[0.339s] -- Build files have been written to: /root/ros2_ws/build/samples01
+[0.386s] [  7%] [32mBuilding CXX object CMakeFiles/x7_onoff.dir/src/x7_onoff.cpp.o[0m
+[0.386s] [  7%] [32mBuilding CXX object CMakeFiles/s17_read_position.dir/src/s17_read_position.cpp.o[0m
+[0.387s] [ 10%] [32mBuilding CXX object CMakeFiles/x7_write_position.dir/src/x7_write_position.cpp.o[0m
+[0.390s] [ 17%] [32mBuilding CXX object CMakeFiles/s17_write_position.dir/src/s17_write_position.cpp.o[0m
+[0.390s] [ 17%] [32mBuilding CXX object CMakeFiles/x7_read_position.dir/src/x7_read_position.cpp.o[0m
+[0.392s] [ 21%] [32mBuilding CXX object CMakeFiles/s17_onoff.dir/src/s17_onoff.cpp.o[0m
+[0.393s] [ 25%] [32mBuilding CXX object CMakeFiles/x7_thread.dir/src/x7_thread.cpp.o[0m
+[0.397s] [ 28%] [32mBuilding CXX object CMakeFiles/x7_read_present_values.dir/src/x7_read_present_values.cpp.o[0m
+[0.397s] [ 32%] [32mBuilding CXX object CMakeFiles/s17_thread.dir/src/s17_thread.cpp.o[0m
+[0.401s] [ 35%] [32mBuilding CXX object CMakeFiles/x7_write_velocity.dir/src/x7_write_velocity.cpp.o[0m
+[0.402s] [ 39%] [32mBuilding CXX object CMakeFiles/s17_read_present_values.dir/src/s17_read_present_values.cpp.o[0m
+[0.405s] [ 42%] [32mBuilding CXX object CMakeFiles/s17_write_velocity.dir/src/s17_write_velocity.cpp.o[0m
+[1.586s] [ 46%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_onoff[0m
+[1.587s] [ 50%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_read_position[0m
+[1.593s] [ 53%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_onoff[0m
+[1.627s] /usr/bin/ld: cannot find -lrt_manipulators_cpp: No such file or directory
+[1.631s] /usr/bin/ld: cannot find -lrt_manipulators_cpp: No such file or directory
+[1.637s] /usr/bin/ld: cannot find -lrt_manipulators_cpp: No such file or directory
+[1.677s] collect2: error: ld returned 1 exit status
+[1.678s] collect2: error: ld returned 1 exit status
+[1.679s] gmake[2]: *** [CMakeFiles/s17_read_position.dir/build.make:98: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_read_position] Error 1
+[1.680s] gmake[1]: *** [CMakeFiles/Makefile2:241: CMakeFiles/s17_read_position.dir/all] Error 2
+[1.680s] gmake[1]: *** Waiting for unfinished jobs....
+[1.685s] gmake[2]: *** [CMakeFiles/s17_onoff.dir/build.make:98: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_onoff] Error 1
+[1.689s] gmake[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/s17_onoff.dir/all] Error 2
+[1.689s] collect2: error: ld returned 1 exit status
+[1.691s] gmake[2]: *** [CMakeFiles/x7_onoff.dir/build.make:98: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_onoff] Error 1
+[1.692s] gmake[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/x7_onoff.dir/all] Error 2
+[1.706s] [ 57%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_read_position[0m
+[1.723s] [ 60%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_read_present_values[0m
+[1.724s] [ 64%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_write_velocity[0m
+[1.733s] [ 71%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_write_velocity[0m
+[1.734s] [ 71%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_thread[0m
+[1.734s] [ 75%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_write_position[0m
+[1.737s] /usr/bin/ld: cannot find -lrt_manipulators_cpp: No such file or directory
+[1.747s] [ 78%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_write_position[0m
+[1.747s] /usr/bin/ld: cannot find -lrt_manipulators_cpp: No such file or directory
+[1.747s] /usr/bin/ld: cannot find -lrt_manipulators_cpp: No such file or directory
+[1.757s] /usr/bin/ld: cannot find -lrt_manipulators_cpp: No such file or directory
+[1.757s] /usr/bin/ld: cannot find -lrt_manipulators_cpp: No such file or directory
+[1.760s] /usr/bin/ld: cannot find -lrt_manipulators_cpp: No such file or directory
+[1.772s] /usr/bin/ld: cannot find -lrt_manipulators_cpp: No such file or directory
+[1.778s] collect2: error: ld returned 1 exit status
+[1.780s] gmake[2]: *** [CMakeFiles/x7_read_position.dir/build.make:98: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_read_position] Error 1
+[1.782s] gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/x7_read_position.dir/all] Error 2
+[1.789s] collect2: error: ld returned 1 exit status
+[1.792s] collect2: error: ld returned 1 exit status
+[1.792s] gmake[2]: *** [CMakeFiles/x7_read_present_values.dir/build.make:98: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_read_present_values] Error 1
+[1.792s] gmake[1]: *** [CMakeFiles/Makefile2:371: CMakeFiles/x7_read_present_values.dir/all] Error 2
+[1.794s] gmake[2]: *** [CMakeFiles/s17_write_velocity.dir/build.make:98: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_write_velocity] Error 1
+[1.795s] gmake[1]: *** [CMakeFiles/Makefile2:449: CMakeFiles/s17_write_velocity.dir/all] Error 2
+[1.802s] collect2: error: ld returned 1 exit status
+[1.802s] collect2: error: ld returned 1 exit status
+[1.805s] gmake[2]: *** [CMakeFiles/s17_thread.dir/build.make:98: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_thread] Error 1
+[1.805s] gmake[2]: *** [CMakeFiles/s17_write_position.dir/build.make:98: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_write_position] Error 1
+[1.805s] gmake[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/s17_write_position.dir/all] Error 2
+[1.805s] gmake[1]: *** [CMakeFiles/Makefile2:345: CMakeFiles/s17_thread.dir/all] Error 2
+[1.806s] [ 82%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_read_present_values[0m
+[1.807s] collect2: error: ld returned 1 exit status
+[1.810s] gmake[2]: *** [CMakeFiles/x7_write_velocity.dir/build.make:98: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_write_velocity] Error 1
+[1.810s] gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/x7_write_velocity.dir/all] Error 2
+[1.815s] collect2: error: ld returned 1 exit status
+[1.818s] gmake[2]: *** [CMakeFiles/x7_write_position.dir/build.make:98: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_write_position] Error 1
+[1.818s] gmake[1]: *** [CMakeFiles/Makefile2:267: CMakeFiles/x7_write_position.dir/all] Error 2
+[1.828s] /usr/bin/ld: cannot find -lrt_manipulators_cpp: No such file or directory
+[1.852s] collect2: error: ld returned 1 exit status
+[1.854s] gmake[2]: *** [CMakeFiles/s17_read_present_values.dir/build.make:98: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/s17_read_present_values] Error 1
+[1.854s] [ 85%] [32m[1mLinking CXX executable /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_thread[0m
+[1.854s] gmake[1]: *** [CMakeFiles/Makefile2:397: CMakeFiles/s17_read_present_values.dir/all] Error 2
+[1.870s] /usr/bin/ld: cannot find -lrt_manipulators_cpp: No such file or directory
+[1.889s] collect2: error: ld returned 1 exit status
+[1.891s] gmake[2]: *** [CMakeFiles/x7_thread.dir/build.make:98: /root/ros2_ws/src/rt_manipulators_cpp/samples/samples01/bin/x7_thread] Error 1
+[1.891s] gmake[1]: *** [CMakeFiles/Makefile2:319: CMakeFiles/x7_thread.dir/all] Error 2
+[1.892s] gmake: *** [Makefile:91: all] Error 2
+[1.895s] Invoked command in '/root/ros2_ws/build/samples01' returned '2': CMAKE_PREFIX_PATH=/root/ros2_ws/install/dynamixel_sdk:/root/ros2_ws/install/sciurus17:/root/ros2_ws/install/sciurus17_examples:/root/ros2_ws/install/sciurus17_control:/root/ros2_ws/install/dynamixel_sdk_examples:/root/ros2_ws/install/sciurus17_vision:/root/ros2_ws/install/sciurus17_tools:/root/ros2_ws/install/sciurus17_moveit_config:/root/ros2_ws/install/sciurus17_gazebo:/root/ros2_ws/install/sciurus17_description:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/rt_manipulators_cpp/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/root/ros2_ws/install/sciurus17_examples/lib:/root/ros2_ws/install/sciurus17_control/lib:/root/ros2_ws/install/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/src/DynamixelSDK/c++/build/win64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_ws/build/samples01 -- -j12 -l12

@@ -1,0 +1,102 @@
+[0mx7_onoff[0m
+[0ms17_onoff[0m
+[0mx7_read_position[0m
+[0ms17_read_position[0m
+[0mx7_write_position[0m
+[0ms17_write_position[0m
+[0mx7_thread[0m
+[0ms17_thread[0m
+[0mx7_read_present_values[0m
+[0ms17_read_present_values[0m
+[0mx7_write_velocity[0m
+[0ms17_write_velocity[0m
+[0mx7_write_current[0m
+[0ms17_write_current[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Target "x7_onoff" links to target "dynamixel_sdk::dynamixel_sdk" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Target "s17_onoff" links to target "dynamixel_sdk::dynamixel_sdk" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Target "x7_read_position" links to target "dynamixel_sdk::dynamixel_sdk"
+  but the target was not found.  Perhaps a find_package() call is missing for
+  an IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Target "s17_read_position" links to target "dynamixel_sdk::dynamixel_sdk"
+  but the target was not found.  Perhaps a find_package() call is missing for
+  an IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Target "x7_write_position" links to target "dynamixel_sdk::dynamixel_sdk"
+  but the target was not found.  Perhaps a find_package() call is missing for
+  an IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Target "s17_write_position" links to target "dynamixel_sdk::dynamixel_sdk"
+  but the target was not found.  Perhaps a find_package() call is missing for
+  an IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Target "x7_thread" links to target "dynamixel_sdk::dynamixel_sdk" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Target "s17_thread" links to target "dynamixel_sdk::dynamixel_sdk" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Target "x7_read_present_values" links to target
+  "dynamixel_sdk::dynamixel_sdk" but the target was not found.  Perhaps a
+  find_package() call is missing for an IMPORTED target, or an ALIAS target
+  is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Target "s17_read_present_values" links to target
+  "dynamixel_sdk::dynamixel_sdk" but the target was not found.  Perhaps a
+  find_package() call is missing for an IMPORTED target, or an ALIAS target
+  is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Target "x7_write_velocity" links to target "dynamixel_sdk::dynamixel_sdk"
+  but the target was not found.  Perhaps a find_package() call is missing for
+  an IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Target "s17_write_velocity" links to target "dynamixel_sdk::dynamixel_sdk"
+  but the target was not found.  Perhaps a find_package() call is missing for
+  an IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Target "x7_write_current" links to target "dynamixel_sdk::dynamixel_sdk"
+  but the target was not found.  Perhaps a find_package() call is missing for
+  an IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Target "s17_write_current" links to target "dynamixel_sdk::dynamixel_sdk"
+  but the target was not found.  Perhaps a find_package() call is missing for
+  an IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:740: cmake_check_build_system] Error 1

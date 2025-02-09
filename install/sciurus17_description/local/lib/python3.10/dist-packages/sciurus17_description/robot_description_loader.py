@@ -1,0 +1,1 @@
+/root/ros2_ws/src/sciurus17_description/sciurus17_description/robot_description_loader.py

@@ -1,0 +1,1 @@
+/root/ros2_ws/build/sciurus17_examples/ament_cmake_environment_hooks/local_setup.zsh
