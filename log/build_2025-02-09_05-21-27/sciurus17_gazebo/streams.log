@@ -1,0 +1,25 @@
+[0.055s] Invoking command in '/root/ros2_ws/build/sciurus17_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/sciurus17_gazebo -- -j12 -l12
+[0.125s] Invoked command in '/root/ros2_ws/build/sciurus17_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/sciurus17_gazebo -- -j12 -l12
+[0.141s] Invoking command in '/root/ros2_ws/build/sciurus17_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/sciurus17_gazebo
+[0.163s] -- Install configuration: ""
+[0.163s] -- Execute custom install script
+[0.164s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo//config/bridge.yaml
+[0.164s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo//launch/sciurus17_with_table.launch.py
+[0.164s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo//worlds/table.sdf
+[0.164s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo//gui/gui.config
+[0.164s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/ament_index/resource_index/package_run_dependencies/sciurus17_gazebo
+[0.164s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/ament_index/resource_index/parent_prefix_path/sciurus17_gazebo
+[0.165s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo/environment/ament_prefix_path.sh
+[0.165s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo/environment/ament_prefix_path.dsv
+[0.165s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo/environment/path.sh
+[0.165s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo/environment/path.dsv
+[0.166s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo/local_setup.bash
+[0.167s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo/local_setup.sh
+[0.167s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo/local_setup.zsh
+[0.167s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo/local_setup.dsv
+[0.167s] -- Symlinking: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo/package.dsv
+[0.195s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/ament_index/resource_index/packages/sciurus17_gazebo
+[0.196s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo/cmake/sciurus17_gazeboConfig.cmake
+[0.196s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo/cmake/sciurus17_gazeboConfig-version.cmake
+[0.202s] -- Up-to-date symlink: /root/ros2_ws/install/sciurus17_gazebo/share/sciurus17_gazebo/package.xml
+[0.203s] Invoked command in '/root/ros2_ws/build/sciurus17_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/sciurus17_gazebo

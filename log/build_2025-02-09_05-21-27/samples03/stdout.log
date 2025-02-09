@@ -1,0 +1,12 @@
+-- Found rt_manipulators_cpp: 1.0.0 (/opt/ros/humble/share/rt_manipulators_cpp/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/build/samples03
+[35m[1mConsolidate compiler generated dependencies of target s17_gravity_compensation[0m
+[35m[1mConsolidate compiler generated dependencies of target x7_3dof_inverse_kinematics[0m
+[35m[1mConsolidate compiler generated dependencies of target s17_3dof_inverse_kinematics[0m
+[35m[1mConsolidate compiler generated dependencies of target x7_gravity_compensation[0m
+[ 68%] Built target s17_3dof_inverse_kinematics
+[ 68%] Built target x7_3dof_inverse_kinematics
+[ 81%] Built target s17_gravity_compensation
+[100%] Built target x7_gravity_compensation

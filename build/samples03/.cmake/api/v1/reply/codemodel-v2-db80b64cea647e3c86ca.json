@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "samples03",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "s17_3dof_inverse_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-s17_3dof_inverse_kinematics-6d01c1f2807b6c8f0e03.json",
+					"name" : "s17_3dof_inverse_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "s17_gravity_compensation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-s17_gravity_compensation-45d1317d1d71a7a3cfc0.json",
+					"name" : "s17_gravity_compensation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "samples03_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-samples03_uninstall-7bd6e6c80b9313e5daaa.json",
+					"name" : "samples03_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ac9cfe17c355bf191f3a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "x7_3dof_inverse_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-x7_3dof_inverse_kinematics-2b018e1893f9fdf1d5a1.json",
+					"name" : "x7_3dof_inverse_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "x7_gravity_compensation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-x7_gravity_compensation-8dfb4aa2cf1bdbce48d6.json",
+					"name" : "x7_gravity_compensation",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/build/samples03",
+		"source" : "/root/ros2_ws/src/rt_manipulators_cpp/samples/samples03"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
