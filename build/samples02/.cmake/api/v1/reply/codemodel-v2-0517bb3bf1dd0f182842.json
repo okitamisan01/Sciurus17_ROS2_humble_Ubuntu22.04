@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "samples02",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "s17_forward_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-s17_forward_kinematics-df106157490f85094013.json",
+					"name" : "s17_forward_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "s17_inverse_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-s17_inverse_kinematics-63e56db02101cb5c71a4.json",
+					"name" : "s17_inverse_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "samples02_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-samples02_uninstall-acf6d09bc1cbbde13dcb.json",
+					"name" : "samples02_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f2876388ccf4db124bd6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "x7_forward_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-x7_forward_kinematics-4205f962430558305169.json",
+					"name" : "x7_forward_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "x7_inverse_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-x7_inverse_kinematics-ff038b381efe36ca502e.json",
+					"name" : "x7_inverse_kinematics",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/build/samples02",
+		"source" : "/root/ros2_ws/src/rt_manipulators_cpp/samples/samples02"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

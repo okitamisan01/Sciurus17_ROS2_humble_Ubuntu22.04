@@ -1,0 +1,7 @@
+/root/ros2_ws/install/sciurus17_examples/lib/libcolor_detection.so
+/root/ros2_ws/install/sciurus17_examples/lib/libneck_jt_control.so
+/root/ros2_ws/install/sciurus17_examples/lib/libobject_tracker.so
+/root/ros2_ws/install/sciurus17_examples/lib/libwaist_jt_control.so
+/root/ros2_ws/install/sciurus17_examples/lib/libpose_presets.so
+/root/ros2_ws/install/sciurus17_examples/share/sciurus17_examples/cmake/export_pose_presetsExport.cmake
+/root/ros2_ws/install/sciurus17_examples/share/sciurus17_examples/cmake/export_pose_presetsExport-noconfig.cmake
